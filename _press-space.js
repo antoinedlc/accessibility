@@ -4,7 +4,7 @@ export default function pressEnter() {
     if (items) {
         items.forEach(item => {
             item.addEventListener('keydown', function(e) {
-                if(e.key === 'Enter') {
+                if(e.key === ' ') {
                     e.preventDefault();
                     item.click();
                 }
